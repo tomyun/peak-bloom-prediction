@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tomyun/peak-bloom-prediction/HEAD?labpath=model.ipynb)
+
 ## Narrative
 
 A few years ago, we did a [comparison study](https://doi.org/10.1016/j.ecolmodel.2017.08.003) between multiple models for predicting phenological events including cherry blossom. Many of these models are based on the concept of thermal time which assumes phenological development is primarily driven by a certain amount of heat or chill accumulation that the plant has been exposed to. While there are other environmental cues like photoperiod and precipitation which may also affect how phenology unfolds, it is known that temperature is the primary driver for phenology development for cherry blossom. Among those many thermal-driven models, however, it was not clear which model was the best in terms of prediction accuracy. In the end, we came up with an ensemble model which basically sums up predictions from all available models. The ensemble model was not clearly the best either, but at least it performed as good as other individual models when put under various prediction scenarios.
